@@ -5,7 +5,8 @@
   margin: 0;
   padding: 0;
   font-family: "Martel Sans", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
+  color:white;
 }
 
 body {
@@ -19,6 +20,7 @@ body {
   background-repeat: no-repeat;
   position: relative;
   z-index: -10;
+
 }
 
 nav {
@@ -44,7 +46,7 @@ nav .logo {
 
 #langbtn {
   /* text-align: center; */
-  color: white;
+
   background: rgba(0, 0, 0, 0.37);
   border: 1px solid gray;
   font-size: 15px;
@@ -69,7 +71,6 @@ nav .logo {
 
 .btn {
   background-color: red;
-  color: white;
   padding: 3px 17px;
   font-size: 15px;
   border-radius: 4px;
@@ -95,8 +96,8 @@ nav .logo {
   align-items: center;
   flex-direction: column;
   height: 85%;
-  color: white;
   font-size: 26px;
+  font-weight: 600;
   text-align: center;
   padding: 30px;
 }
@@ -140,8 +141,7 @@ nav .logo {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -181,10 +181,87 @@ nav .logo {
     left: 19vw;
     z-index: 100;
 }
-div.sttext{
-  color: white;
-}
+
+
 .download{
-  color: blue;
+  color: #0071eb;
   font: 1em sans-serif;
 }
+
+.faq{
+  /* border: 2px solid red; */
+  /* margin:10vh auto; */
+  padding: 5vh;
+  gap: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.faq> span{
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.questions{
+  /* border: 2px solid red; */
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  gap:1vh;
+  font-size: 26px;
+  margin-bottom: 3vh;
+
+}
+
+.ques{
+  padding: 18px;
+  /* border: 3px solid blue; */
+  background-color:rgba(45,45,45,1);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+.ques:hover{
+  background-color: rgb(69, 69, 69);
+}
+#ans{
+  display: none;
+  background-color: rgba(45,45,45,1);
+  padding: 18px;
+  font-weight: 400;
+}
+.faq .btn{
+  font-size: 25px;
+  margin-bottom: 4vh;
+}
+
+footer{
+  /* border: 1px solid blue; */
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+  width: 80vw;
+  gap: 3vh;
+  font-size: 17px;
+  /* padding: 5vh; */
+}
+.services{
+  /* border: 2px solid brown; */
+  display: grid;
+  width: 80vw;
+  font-size: 15px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 4vh;
+}
+.heart{
+  color:red;
+}
+
+
+
