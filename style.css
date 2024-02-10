@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Martel Sans', sans-serif;
+}
+
+.main {
+  background: url(assets/images/homebg.jpg);
+  height: 100vh;
+  background-position: 45% 70%;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -10;
+}
+nav {
+  /* background-color: blue; */
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 75vw;
+  margin: 0 auto;
+  top: 10px;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+nav .logo {
+  width: 9.25rem;
+  height: 2.5rem;
+  color: rgb(229, 9, 20);
+  top: 10px;
+}
+#langbtn {
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.37);
+  border: 1px solid white;
+  font-size: 15px;
+}
+.lang, .down{
+    width: 15px;
+    position: relative;
+    top: 2px;
+}
+.lang{
+  padding-right: 8px;
+}
+.down{
+  background: none;
+  color: #fff;
+  padding-left: 8px;
+}
+.btn{
+  background-color: red;
+  color: white;
+  padding: 3px 15px;
+  font-size: 15px;
+  border-radius: 4px;
+  font-weight: 500;
+  border: none;
+  margin: 0 6px;
+}
+.btnSmall{
+  font-size: 15px;
+}
+
+.main .box {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: black;
+  opacity: 0.6;
+}
+.homeText {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  color: white;
+}
+
+
